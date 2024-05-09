@@ -41,8 +41,8 @@ $alligator->setSize(180);
 $python = new Snake('python');
 $python->setSize(300);
 
-$tarentula = new Spider('tarentula');
-$tarentula->setSize(10);
+$tarantula = new Spider('tarantula');
+$tarantula->setSize(10);
 
 $scorpio = new Arachnide('scorpio');
 $scorpio->setSize(15);
@@ -51,7 +51,7 @@ $scorpio->setCarnivorous(true);
 $bee = new Insect('bee');
 $bee->setSize(2);
 
-$animals = [$elephant, $lion, $tiger, $zebra, $parrot, $alligator, $python, $scorpio, $tarentula, $bee];
+$animals = [$elephant, $lion, $tiger, $zebra, $parrot, $alligator, $python, $scorpio, $tarantula, $bee];
 
 $savana = new Area('savana');
 $savana->addAnimal($lion);
@@ -61,7 +61,7 @@ $savana->addAnimal($zebra);
 $jungle = new Area('jungle');
 $jungle->addAnimal($parrot);
 $jungle->addAnimal($alligator);
-$jungle->addAnimal($tarentula);
+$jungle->addAnimal($tarantula);
 $jungle->addAnimal($tiger);
 
 $desert = new Area('desert');
